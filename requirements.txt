@@ -1,0 +1,5 @@
+Django==2.0.2
+djangorestframework==3.8.2
+pipenv==11.10.0
+pytz==2017.3
+requests==2.7.0

@@ -1,0 +1,90 @@
+body {
+	margin: 0;
+	width: 100%;
+}
+
+.main {
+	width: 100%;
+	overflow: hidden;
+	background-color: #141722;
+}
+
+#running {
+	position: relative;
+	height: 80px;
+	background-color: #141722;
+}
+
+#running p {
+	margin: 0;
+	display: inline;
+}
+
+.symbol {
+	position: absolute;
+	height: 80px;
+	background-color: #141722;
+	/*border-left: 1px solid #57e5e0;*/
+	border-right: 1px solid #57e5e0;
+	-moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+} 
+
+.symbol {
+	color: white;
+}
+
+.name {
+	position: absolute;
+	left: 8px;
+	top: 8px;
+	font-size: 20px;
+}
+
+.change {
+	position: absolute;
+	left: 100px;
+	top: 54px;
+}
+
+.price {
+	position: absolute;
+	top: 10px;
+	right: 8px;
+	font-size: 18px;
+}
+
+.precent {
+	position: absolute;
+	top: 44px;
+	left: 36px;
+	font-size: 26px;
+}
+
+.up {
+	color: #4caa70;
+}
+
+.down {
+	color: #c62323;
+}
+
+.arrow_down:after {
+    content: ''; 
+    position: absolute;
+    left: -23px; 
+    bottom: 1px;
+    border: 10px solid transparent;
+    border-top: 10px solid #c62323;
+}
+
+.arrow_up:after {
+    content: ''; 
+    position: absolute;
+    left: -23px; 
+    bottom: 11px;
+    border: 10px solid transparent;
+    border-bottom: 10px solid #4caa70;
+}
+
